@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CashApp Money Generator</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #1f4037, #99f2c8);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .container {
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      animation: slideDown 1.5s ease-in-out;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      animation: slideUp 1.5s ease-in-out;
+    }
+    .btn {
+      background-color: #00c853;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 25px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      animation: pulse 2s infinite;
+    }
+    .btn:hover {
+      background-color: #00e676;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    @keyframes slideDown {
+      from {transform: translateY(-50px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+    @keyframes slideUp {
+      from {transform: translateY(50px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>CashApp Money Generator</h1>
+    <p>Generate Free CashApp Money Instantly In Your Account!<br> 100% Safe. No Hassle. 100% Free!</p>
+    <button class="btn" onclick="startGenerator()">Start Generator</button>
+  </div>
+  <script>
+    function startGenerator() {
+      window.location.href = "https://free-tools.raj-solution.com/077ab49";
+    }
+  </script>
+</body>
+</html>
